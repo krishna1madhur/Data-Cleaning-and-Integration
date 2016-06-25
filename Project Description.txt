@@ -1,0 +1,13 @@
+Project Tasks:
+
+1. Given a dataset in the file 'class.txt' which contains dirty data. 
+2. Applied transformation rules like edit distance, jaccard similarity, Norton's spelling corrector in 'clean.py' for data cleaning.
+3. The cleaned data is written into 'cleaned.txt' in the format: professor_name - course_1|course_2|...course_n
+4. The cleaned dataset is used by 'query.py' to answer 3 queries:
+	1: How many distinct courses does this dataset contain?
+	2: List all the courses (in alphabetical order) taught by Professor Mitchell Theys in
+	comma-separated form.
+	3: For professors who have taught at least 5 courses, using Jaccard distance to
+	determine which two professors have the most aligned teaching interests based on course
+	titles. Note that you should implement the function to calculate Jaccard distance
+	instead of using an existing package.
