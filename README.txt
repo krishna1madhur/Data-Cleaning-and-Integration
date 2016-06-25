@@ -1,3 +1,4 @@
+Please refer to 'Project Description.txt' for the project tasks and goals.
 
 Assumptions:
 
